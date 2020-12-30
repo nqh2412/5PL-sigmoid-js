@@ -108,4 +108,4 @@ Parms = fminsearch(fun, [slope, yMax, yMin, xMid, 1], x, y, {
 	objFun: rmse
 });
 
-console.log(Parms[0] / 3);
+console.log(Parms);
